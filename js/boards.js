@@ -27,14 +27,22 @@ for (let i = 0; i < randomCardIndexSets.length; i++) {
 function displayBoard(obj){
     $("#tabla-num").text(obj.displayName);
     for (let i=0 ; i < 16 ; i++){
-        $("#card"+i).append("<p>" + obj.cards[i].number +"</p>");
-        $("#card"+i).append($("<img>").attr("data-src", obj.cards[i].location)
-                                    .attr("width", 150)
-                                    .attr("uk-img", ""));
-        $("#card"+i).append("<p>" + obj.cards[i].name +"</p>");
+        let card = obj.cards[i];
+        $("#card"+i).append("<p>" + card.number +"</p>");
+        $("#card"+i).append(
+            $("<img>")
+            .attr("data-src", card.location)
+            .attr("width", 150)
+            .attr("uk-img", ""));
+        $("#card"+i).append(
+            $("<div>").append(
+                $("<span>").text(card.esName),
+                $("<br>"),
+                $("<span>").text(card.enName)));
 
     }
     
 }
 
 displayBoard(tablas[8]);
+
