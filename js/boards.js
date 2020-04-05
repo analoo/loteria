@@ -13,8 +13,8 @@ var tabla1 = {
 
 
 function displayBoard(obj){
-    $("#1-1").attr("data-src", cards[0].location);
-    $("#1-1").text(cards[0].name);
+    $("#card0").attr("data-src", cards[0].location);
+    $("#card0").text(cards[0].name);
 
 }
 
