@@ -36,4 +36,4 @@ function displayBoard(obj){
     
 }
 
-displayBoard(tablas[0]);
+displayBoard(tablas[8]);
