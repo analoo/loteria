@@ -379,3 +379,16 @@ var cards = [
         saying: ""
     }
 ];
+
+
+function currentCallingCard(obj){
+	$("#recent-card").append("<h4>" + obj.name + "</h4>")
+	$("#recent-card").append($("<img>").attr("data-src", obj.location)
+								.attr("width", 350)
+								.attr("uk-img", ""));
+	
+	$("#recent-card").append("<p>" + obj.saying + "</p>")
+						
+	}
+
+currentCallingCard(cards[1]);

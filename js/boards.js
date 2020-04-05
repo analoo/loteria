@@ -25,6 +25,7 @@ for (let i = 0; i < randomCardIndexSets.length; i++) {
 
 
 function displayBoard(obj){
+    $("#tabla-num").text(obj.displayName);
     for (let i=0 ; i < 16 ; i++){
         let card = obj.cards[i];
         $("#card"+i).append("<p>" + card.number +"</p>");
@@ -44,3 +45,4 @@ function displayBoard(obj){
 }
 
 displayBoard(tablas[8]);
+
