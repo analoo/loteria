@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,29 +14,39 @@
 </head>
 
 <body>
-<h1 class="uk-heading-line uk-text-center"><span>LOTERIA</span></h1>
+    <h1 class="uk-heading-line uk-text-center"><span>LOTERIA</span></h1>
 
-<div class="uk-padding uk-background-muted uk-width-1-2@s">
-    <form class="uk-search uk-search-default">
-        <span uk-icon="plus-circle"></span>Enter Your Name<input class="uk-search-input" type="search" placeholder="Ana">
-    </form> </br>
-    <hr>
-    <form class="uk-search uk-search-default">
-        <span uk-icon="plus-circle"></span>Add your game code<input class="uk-search-input" type="search" placeholder="UXJSDOWP">
-    </form>    
-</div>
-<p uk-margin>
-    <button class="uk-button uk-button-default">Vamonos!</button>
-</p>
+    <div class="uk-padding uk-background-muted uk-width-1-2@s">
+        <form class="uk-search uk-search-default">
+            <span uk-icon="plus-circle"></span>Enter Your Name<input class="uk-search-input" type="search"
+                placeholder="Ana">
+        </form> </br>
+        <hr>
+        <form class="uk-search uk-search-default">
+            <span uk-icon="plus-circle"></span>Add your game code<input class="uk-search-input" type="search"
+                placeholder="UXJSDOWP">
+        </form>
+    </div>
+    <p uk-margin>
+        <button class="uk-button uk-button-default">Vamonos!</button>
+    </p>
 
 
 
-
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
-    <script src="js/boards.js"></script>
-    <script src="js/script.js"></script>
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
+     
+     <!-- UIkit JS -->
+     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     
+     <!-- Internal JS -->
+     <script src="js/database.js"></script>
+     <script src="js/cards.js"></script>
+     <script src="js/boards.js"></script>
+     <script src="js/script.js"></script>
 
 </body>
 
