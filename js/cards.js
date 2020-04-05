@@ -177,10 +177,10 @@ var cards = [
     },
     {
         number: 26,
-        esName: "El Negrito",
-        enName: "The Little Black Man",
+        esName: "Pannetone",
+        enName: "Pannetone",
         location: "",
-        saying: ""
+        saying: "Pannetone not Pan De Toni"
     },
     {
         number: 27,
@@ -382,7 +382,9 @@ var cards = [
 
 
 function currentCallingCard(obj){
-	$("#recent-card").append("<h4>" + obj.name + "</h4>")
+	$("#recent-card").append("<h4>" + obj.esName + "</h4>")
+	$("#recent-card").append("<p>" + obj.enName + "</p>")
+
 	$("#recent-card").append($("<img>").attr("data-src", obj.location)
 								.attr("width", 350)
 								.attr("uk-img", ""));
