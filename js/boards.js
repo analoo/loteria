@@ -7,14 +7,14 @@
 
 var tabla1 = {
     displayName: "Tabla 1",
-    images: [roosterCard, socialMediaCard],
+    images: [cards[0], cards[1]],
     won: false
 }
 
 
 function displayBoard(obj){
-    $("#1-1").attr("data-src", roosterCard.location);
-    $("#1-1").text(roosterCard.name);
+    $("#1-1").attr("data-src", cards[0].location);
+    $("#1-1").text(cards[0].name);
 
 }
 

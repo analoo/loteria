@@ -1,119 +1,379 @@
-var roosterCard = {
-    name: "El Gallo | The Rooster",
-    location: "assets/images/rooster.gif",
-    saying: "Gallo Gallo Gallo   |  Rooster Rooster Rooster",
-    number: 1
-}
+var cards = [
+	{
+		name: "El Gallo | The Rooster",
+		location: "assets/images/rooster.gif",
+		saying: "Gallo Gallo Gallo   |  Rooster Rooster Rooster",
+		number: 1
+	},
 
-// replacement for devil
-var socialMediaCard= {
-    name: "El Social Media | Social Media",
-    location: "assets/images/socialMedia.gif",
-    saying: "Tiempo tan preciado, a donde te vas?",
-    number: 2
-}
+	{
+		// replacement for devil
+		name: "El Social Media | Social Media",
+		location: "assets/images/socialMedia.gif",
+		saying: "Tiempo tan preciado, a donde te vas?",
+		number: 2
+	},
+	{
+		number: 3,
+		name: "La Dama | the lady",
+		location: "",
+		saying: ""
+	},
 
+	{
+		number: 4,
+		name: "El Catrín | the dandy",
+		location: "",
+		saying: ""
+	},
 
-// 3 La Dama ("the lady")
+	{
+		number: 5,
+		name: "El Paraguas | the umbrella",
+		location: "",
+		saying: ""
+	},
 
-// 4 El Catrín ("the dandy")
+	{
+		number: 6,
+		name: "La Sirena | the mermaid",
+		location: "",
+		saying: ""
+	},
 
-// 5 El Paraguas ("the umbrella")
+	{
+		number: 7,
+		name: "La Escalera | the ladder",
+		location: "",
+		saying: ""
+	},
 
-// 6 La Sirena ("the mermaid")
+	{
+		number: 8,
+		name: "La Botella | the bottle",
+		location: "",
+		saying: ""
+	},
 
-// 7 La Escalera ("the ladder")
+	{
+		number: 9,
+		name: "El Barril | the barrel",
+		location: "",
+		saying: ""
+	},
 
-// 8 La Botella ("the bottle")
+	{
+		number: 10,
+		name: "El Arbol | the tree",
+		location: "",
+		saying: ""
+	},
 
-// 9 El Barril ("the barrel")
+	{
+		number: 11,
+		name: "El Melon | the melon",
+		location: "",
+		saying: ""
+	},
 
-// 10 El Arbol ("the tree")
+	{
+		number: 12,
+		name: "El Valiente | the brave man",
+		location: "",
+		saying: ""
+	},
 
-// 11 El Melon ("the melon")
+	{
+		number: 13,
+		name: "El Gorrito | the little bonnet",
+		location: "",
+		saying: ""
+	},
 
-// 12 El Valiente ("the brave man")
+	{
+		number: 14,
+		name: "La Muerte | Death",
+		location: "",
+		saying: ""
+	},
 
-// 13 El Gorrito ("the little bonnet")
+	{
+		number: 15,
+		name: "La Pera | the pear",
+		location: "",
+		saying: ""
+	},
 
-// 14 La Muerte ("Death")
+	{
+		number: 16,
+		name: "La Bandera | the flag",
+		location: "",
+		saying: ""
+	},
 
-// 15 La Pera ("the pear")
+	{
+		number: 17,
+		name: "El Bandolón | the mandolin",
+		location: "",
+		saying: ""
+	},
 
-// 16 La Bandera ("the flag")
+	{
+		number: 18,
+		name: "El Violoncello | the cello",
+		location: "",
+		saying: ""
+	},
 
-// 17 El Bandolón ("the mandolin")
+	{
+		number: 19,
+		name: "La Garza | the heron",
+		location: "",
+		saying: ""
+	},
 
-// 18 El Violoncello ("the cello")
+	{
+		number: 20,
+		name: "El Pájaro | the bird",
+		location: "",
+		saying: ""
+	},
 
-// 19 La Garza ("the heron")
+	{
+		number: 21,
+		name: "La Mano | the hand",
+		location: "",
+		saying: ""
+	},
 
-// 20 El Pájaro ("the bird")
+	{
+		number: 22,
+		name: "La Bota | the boot",
+		location: "",
+		saying: ""
+	},
 
-// 21 La Mano ("the hand")
+	{
+		number: 23,
+		name: "La Luna | the moon",
+		location: "",
+		saying: ""
+	},
 
-// 22 La Bota ("the boot")
+	{
+		number: 24,
+		name: "El Cotorro | the parrot",
+		location: "",
+		saying: ""
+	},
 
-// 23 La Luna ("the moon")
+	{
+		number: 25,
+		name: "El Borracho | the drunkard",
+		location: "",
+		saying: ""
+	},
 
-// 24 El Cotorro ("the parrot")
+	{
+		number: 26,
+		name: "El Negrito | the little black man",
+		location: "",
+		saying: ""
+	},
 
-// 25 El Borracho ("the drunkard")
+	{
+		number: 27,
+		name: "El Corazón | the heart",
+		location: "",
+		saying: ""
+	},
 
-// 26 El Negrito ("the little black man")
+	{
+		number: 28,
+		name: "La Sandía | the watermelon",
+		location: "",
+		saying: ""
+	},
 
-// 27 El Corazón ("the heart")
+	{
+		number: 29,
+		name: "El Tambor | the drum",
+		location: "",
+		saying: ""
+	},
 
-// 28 La Sandía ("the watermelon")
+	{
+		number: 30,
+		name: "El Camarón | the shrimp",
+		location: "",
+		saying: ""
+	},
 
-// 29 El Tambor ("the drum")
+	{
+		number: 31,
+		name: "Las Jaras | the arrows",
+		location: "",
+		saying: ""
+	},
 
-// 30 El Camarón ("the shrimp")
+	{
+		number: 32,
+		name: "El Músico | the musician",
+		location: "",
+		saying: ""
+	},
 
-// 31 Las Jaras ("the arrows")
+	{
+		number: 33,
+		name: "La Araña | the spider",
+		location: "",
+		saying: ""
+	},
 
-// 32 El Músico ("the musician")
+	{
+		number: 34,
+		name: "El Soldado | the soldier",
+		location: "",
+		saying: ""
+	},
 
-// 33 La Araña ("the spider")
+	{
+		number: 35,
+		name: "La Estrella | the star",
+		location: "",
+		saying: ""
+	},
 
-// 34 El Soldado ("the soldier")
+	{
+		number: 36,
+		name: "El Cazo | the saucepan",
+		location: "",
+		saying: ""
+	},
 
-// 35 La Estrella ("the star")
+	{
+		number: 37,
+		name: "El Mundo | the world",
+		location: "",
+		saying: ""
+	},
 
-// 36 El Cazo ("the saucepan")
+	{
+		number: 38,
+		name: "El Apache | the Apache",
+		location: "",
+		saying: ""
+	},
 
-// 37 El Mundo ("the world")
+	{
+		number: 39,
+		name: "El Nopal | the prickly pear cactus",
+		location: "",
+		saying: ""
+	},
 
-// 38 El Apache ("the Apache")
+	{
+		number: 40,
+		name: "El Alacrán | the scorpion",
+		location: "",
+		saying: ""
+	},
 
-// 39 El Nopal ("the prickly pear cactus")
+	{
+		number: 41,
+		name: "La Rosa | the rose",
+		location: "",
+		saying: ""
+	},
 
-// 40 El Alacrán ("the scorpion")
+	{
+		number: 42,
+		name: "La Calavera | the skull",
+		location: "",
+		saying: ""
+	},
 
-// 41 La Rosa ("the rose")
+	{
+		number: 43,
+		name: "La Campana | the bell",
+		location: "",
+		saying: ""
+	},
 
-// 42 La Calavera ("the skull")
+	{
+		number: 44,
+		name: "El Cantarito | the little water pitcher",
+		location: "",
+		saying: ""
+	},
 
-// 43 La Campana ("the bell")
+	{
+		number: 45,
+		name: "El Venado | the deer",
+		location: "",
+		saying: ""
+	},
 
-// 44 El Cantarito ("the little water pitcher")
+	{
+		number: 46,
+		name: "El Sol | the sun",
+		location: "",
+		saying: ""
+	},
 
-// 45 El Venado ("the deer")
+	{
+		number: 47,
+		name: "La Corona | the crown",
+		location: "",
+		saying: ""
+	},
 
-// 46 El Sol ("the sun")
+	{
+		number: 48,
+		name: "La Chalupa | the canoe",
+		location: "",
+		saying: ""
+	},
 
-// 47 La Corona ("the crown")
+	{
+		number: 49,
+		name: "El Pino | the pine tree",
+		location: "",
+		saying: ""
+	},
 
-// 48 La Chalupa ("the canoe")
+	{
+		number: 50,
+		name: "El Pescado | the fish",
+		location: "",
+		saying: ""
+	},
 
-// 49 El Pino ("the pine tree")
+	{
+		number: 51,
+		name: "La Palma | the palm tree",
+		location: "",
+		saying: ""
+	},
 
-// 50 El Pescado ("the fish")
+	{
+		number: 52,
+		name: "La Maceta | the flowerpot",
+		location: "",
+		saying: ""
+	},
 
-// 51 La Palma ("the palm tree")
+	{
+		number: 53,
+		name: "El Arpa | the harp",
+		location: "",
+		saying: ""
+	},
 
-// 52 La Maceta ("the flowerpot")
-
-// 53 El Arpa ("the harp")
-
-// 54 La Rana ("the frog")
+	{
+		number: 54,
+		name: "La Rana | the frog",
+		location: "",
+		saying: ""
+	}
+];
