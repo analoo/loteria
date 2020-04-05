@@ -13,11 +13,16 @@ var tabla1 = {
 
 
 function displayBoard(obj){
-    $("#card0").append($("<img>").attr("data-src", cards[0].location)
-                                 .attr("width", 150)
-                                 .attr("height", 400)
-                                 .attr("uk-img", ""));
-    $("#card0").append("<p>" + cards[0].name +"</p>");
+    for (let i=0 ; i < 16 ; i++){
+        $("#card"+i).append("<p>" + obj.cards[i].number +"</p>");
+        $("#card"+i).append($("<img>").attr("data-src", obj.images[i].location)
+                                    .attr("width", 150)
+                                    .attr("height", 400)
+                                    .attr("uk-img", ""));
+        $("#card"+i).append("<p>" + obj.cards[i].name +"</p>");
+
+    }
+    
 }
 
 displayBoard(tabla1)
