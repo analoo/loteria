@@ -29,7 +29,6 @@ function displayBoard(obj){
         $("#card"+i).append("<p>" + obj.cards[i].number +"</p>");
         $("#card"+i).append($("<img>").attr("data-src", obj.cards[i].location)
                                     .attr("width", 150)
-                                    .attr("height", 400)
                                     .attr("uk-img", ""));
         $("#card"+i).append("<p>" + obj.cards[i].name +"</p>");
 
