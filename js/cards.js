@@ -23,23 +23,23 @@ var cards = [
     },
     {
         number: 4,
-        esName: "El Catrín",
-        enName: "The Dandy",
-        location: "",
+        esName: "El White Claw",
+        enName: "The White Claw",
+        location: "assets/images/whiteClaw.gif",
         saying: ""
     },
     {
         number: 5,
         esName: "El Paraguas",
         enName: "The Umbrella",
-        location: "",
+        location: "assets/images/umbrella.gif",
         saying: ""
     },
     {
         number: 6,
         esName: "La Sirena",
         enName: "The Mermaid",
-        location: "",
+        location: "assets/images/mermaid.gif",
         saying: ""
     },
     {
@@ -86,9 +86,9 @@ var cards = [
     },
     {
         number: 13,
-        esName: "El Gorrito",
-        enName: "The Little Bonnet",
-        location: "",
+        esName: "Las Chanclas",
+        enName: "The Flip Flops",
+        location: "assets/images/chanclas.gif",
         saying: ""
     },
     {
