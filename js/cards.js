@@ -18,7 +18,7 @@ var cards = [
         number: 3,
         esName: "La Dama",
         enName: "The Lady",
-        location: "",
+        location: "assets/images/laDama.gif",
         saying: ""
     },
     {
@@ -46,15 +46,15 @@ var cards = [
         number: 7,
         esName: "La Escalera",
         enName: "The Ladder",
-        location: "",
+        location: "assets/images/ladder.gif",
         saying: ""
     },
     {
         number: 8,
-        esName: "La Botella",
-        enName: "The Bottle",
-        location: "",
-        saying: ""
+        esName: "La Corona",
+        enName: "The Corona",
+        location: "assets/images/corona.gif",
+        saying: "La causa y solucion de todos nuestros problemas"
     },
     {
         number: 9,
@@ -93,10 +93,10 @@ var cards = [
     },
     {
         number: 14,
-        esName: "La Muerte",
-        enName: "Death",
-        Location: "",
-        saying: ""
+        esName: "La Tortillera",
+        enName: "The Tortilla Maker",
+        Location: "assets/images/laTortillera.gif",
+        saying: "Para los tres tiempos"
     },
     {
         number: 15,
@@ -109,7 +109,7 @@ var cards = [
         number: 16,
         esName: "La Bandera",
         enName: "The Flag",
-        location: "",
+        location: "assets/images/bandera.gif",
         saying: ""
     },
     {
@@ -137,7 +137,7 @@ var cards = [
         number: 20,
         esName: "El Pájaro",
         enName: "The Bird",
-        location: "",
+        location: "assets/images/bird.gif",
         saying: ""
     },
     {
@@ -158,14 +158,14 @@ var cards = [
         number: 23,
         esName: "La Luna",
         enName: "The Moon",
-        location: "",
-        saying: ""
+        location: "assets/images/theMoon.gif",
+        saying: "que me alumbro en mis noches de amor"
     },
     {
         number: 24,
-        esName: "El Cotorro",
-        enName: "The Parrot",
-        location: "",
+        esName: "Los Frijoles",
+        enName: "The Beans",
+        location: "assets/images/beans.gif",
         saying: ""
     },
     {
@@ -312,8 +312,8 @@ var cards = [
         number: 45,
         esName: "El Venado",
         enName: "The Deer",
-        location: "",
-        saying: ""
+        location: "assets/images/venado.gif",
+        saying: "Y que no me digan en la esquina"
     },
     {
         number: 46,
